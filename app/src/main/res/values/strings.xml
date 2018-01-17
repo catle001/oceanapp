@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">OCEAN</string>
+    <!--<string name="facebook_app_id">1580432772263053</string>-->
+    <!--<string name="fb_login_protocol_scheme">fb1580432772263053</string>-->
+    <color name="black">#000000</color>
+
+    <string name="defUrl">http://10.0.2.2:8081/</string>
+    <!--<string name="portUrl">http://10.0.2.2:8081</string>-->
+    <string name="portUrl">http://geddy.us-east-1.elasticbeanstalk.com/</string>
+    <string name="survey_link">https://goo.gl/forms/xArDlbDMzT5w8iKu2</string>
+    <string name="dburl">http://andrewchng.com/darren/addtofypdb.php"</string>
+
+    <string name="quizinstructions">Please give a rating of 1 to 9 for each of the character traits.</string>
+
+    <string name="AttrOne">Extraversion</string>
+    <string name="AttrTwo">Agreeableness</string>
+    <string name="AttrThree">Conscientiousness</string>
+    <string name="AttrFour">Neuroticism</string>
+    <string name="AttrFive">Openness</string>
+
+    <string name="AttrOneSummary">Extraversion is characterized by excitability, sociability, talkativeness, assertiveness and high amounts of emotional expressiveness.People who are high in extroversion are outgoing and tend to gain energy in social situations. People who are low in extroversion (or introverted) tend to be more reserved and have to expend energy in social settings.</string>
+    <string name="AttrTwoSummary">Agreeableness includes attributes such as trust, altruism, kindness, affection and other prosocial behaviors. People who are high in agreeableness tend to be more cooperative while those low in this trait tend to be more competitive and even manipulative.</string>
+    <string name="AttrThreeSummary">Standard features of Conscientiousness include high levels of thoughtfulness, with good impulse control and goal-directed behaviors. Those high on conscientiousness tend to be organized and mindful of details.</string>
+    <string name="AttrFourSummary">Neuroticism is a trait characterized by sadness, moodiness, and emotional instability. Individuals who are high in this trait tend to experience mood swings, anxiety, moodiness, irritability and sadness. Those low in this trait tend to be more stable and emotionally resilient.</string>
+    <string name="AttrFiveSummary">Openness features characteristics such as imagination and insight, and those high in this trait also tend to have a broad range of interests. People who are high in this trait tend to be more adventurous and creative. People low in this trait are often much more traditional and may struggle with abstract thinking.</string>
+    <string name="SummarySource">https://www.verywell.com/the-big-five-personality-dimensions-2795422</string>
+
+    <string name="Max1">Max1</string>
+    <string name="Max1Usage">Max1Usage</string>
+    <string name="Max2">Max2</string>
+    <string name="Max2Usage">Max2Usage</string>
+
+    <string name="time1">socialtime</string>
+    <string name="time2">gamingtime</string>
+    <string name="time3">communicationtime</string>
+    <string name="time4">personalizationtime</string>
+    <string name="time5">productivitytime</string>
+    <string name="time6">shoppingtime</string>
+    <string name="time7">musicnaudiotime</string>
+    <string name="time8">videoplayertime</string>
+
+    <string-array name="arrExtraversion">
+        <item>COMMUNICATION</item>
+        <item>SOCIAL</item>
+    </string-array>
+    <string-array name="arrAgreeableness">
+        <item>PERSONALIZATION</item>
+    </string-array>
+    <string-array name="arrConscientiousness">
+        <item>PRODUCTIVITY</item>
+    </string-array>
+    <string-array name="arrNeuroticism">
+        <item>GAME</item>
+    </string-array>
+    <string-array name="arrOpenness">
+        <item>VIDEO_PLAYERS</item>
+    </string-array>
+
+    <string-array name="gamingcategory">
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Arcade</item>
+        <item>Board</item>
+        <item>Card</item>
+        <item>Casino</item>
+        <item>Casual</item>
+        <item>Educational</item>
+        <item>Music</item>
+        <item>Puzzle</item>
+        <item>Racing</item>
+        <item>Role Playing</item>
+        <item>Simulation</item>
+        <item>Sports</item>
+        <item>Strategy</item>
+        <item>Trivia</item>
+        <item>Word</item>
+    </string-array>
+
+    <string name="qattr1">quiz_extraversion</string>
+    <string name="qattr2">quiz_agreeableness</string>
+    <string name="qattr3">quiz_conscientiousness</string>
+    <string name="qattr4">quiz_neuroticism</string>
+    <string name="qattr5">quiz_openness</string>
+
+    <string name="dattr1">device_extraversion</string>
+    <string name="dattr2">device_agreeableness</string>
+    <string name="dattr3">device_conscientiousness</string>
+    <string name="dattr4">device_neuroticism</string>
+    <string name="dattr5">device_openness</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="prev">PREV</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello!</string>
+    <string name="slide_1_desc">Thanks for participating in the survey. We will guide you through the steps required.</string>
+
+    <string name="slide_2_title">Permissions</string>
+    <string name="slide_2_desc">Do allow all the permissions requested by the application. If a window do pop-up, please permit usage access for our application.</string>
+
+    <string name="slide_3_title">Login</string>
+    <string name="slide_3_desc">Enter a valid NTU Matriculation Card Number and proceed to complete a 35 question quiz.</string>
+
+    <string name="slide_4_title">Usability</string>
+    <string name="slide_4_desc">Browse through the recommended apps and let us know if it interests you!</string>
+
+    <string name="slide_5_title">Feedback</string>
+    <string name="slide_5_desc">Complete the feedback provided on your profile or in the popup dialog that appears after using the application.</string>
+
+
+</resources>

@@ -1,0 +1,115 @@
+
+<RelativeLayout
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base"
+    tools:context=".View.MainActivity">
+
+    <include layout="@layout/toolbar" android:id="@+id/main_toolbar"/>
+
+
+
+
+
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="16dp"
+        tools:context=".MainActivity"
+        android:background="@color/base"
+        >
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_red"
+        android:textAlignment="center"
+        android:id="@+id/txtHighestScore"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_red"
+            android:textAlignment="center"
+            android:id="@+id/txtlink"
+            />
+
+        <TextView
+            android:id="@+id/featured"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtHighestScore"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:layout_marginTop="50dp"
+            android:text="Featured Applications"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+
+        <ScrollView
+            android:id="@+id/scrollv1"
+            android:layout_below="@+id/featured"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/base"
+                >
+            </android.support.v7.widget.RecyclerView>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/suggested"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scrollv1"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:layout_marginTop="20dp"
+            android:text="Suggested Applications"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+
+        <ScrollView
+            android:id="@+id/scrollv2"
+            android:layout_below="@+id/suggested"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/base"
+                >
+            </android.support.v7.widget.RecyclerView>
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
