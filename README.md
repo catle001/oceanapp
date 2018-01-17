@@ -2,11 +2,11 @@
 
 Adroid application for app recommendation
 
-#installation
+# installation
 
 android studio
 
-#required OS
+# required OS
 Android Marshmallow 6.0+
 
 
